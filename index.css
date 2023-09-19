@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .one::before{
+    content: "";
+    background-color: brown;
+    display: inline-block;
+    position: fixed;
+    width: 15rem;
+    height: 10rem;
+} */
+
+
+.sec{
+    padding: 6rem 2.1rem;
+ background-color: rgb(241, 243, 245);
+ display: flex;
+ /* align-content: center; */
+ /* align-items: center; */
+ /*  چرا الاین کانتنت و ایتم کار نمبکنن؟ */
+ flex-flow: wrap row;
+ justify-content: center;
+}
+
+article{
+    margin: 1rem;
+    background-color: white;
+    width: 14rem;
+    height: 9rem;
+}
+
+.gray{
+    background-color: rgba(189, 185, 185, 0.849);
+    width: 7rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    margin-left: 3.5rem;
+}
+
+.o{
+    width: 7rem;
+    height: 7rem;
+    background-color: rgba(245, 59, 252, 0.753);
+    margin: 1rem;
+    margin-left: -.98rem;
+    transition: all .7s;
+}
+
+
+.sec-1{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.sec-2{
+    width: 40rem;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+/* .a2{
+    padding-left: 4.5rem;
+} */
+
+
+.sec-3{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.sec-4{
+    width: 40rem;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    /* margin-bottom: 5rem; */
+}
+
+
+div:hover .one{
+transform: rotate(48deg);
+}
+
+div:hover .two{
+    transform: rotatex(48deg);
+    /* transform: scaleY(.8); */
+    }
+
+div:hover .three{
+    transform: rotatey(48deg);
+    }    
+
+div:hover .four{
+    transform: scale(2);
+    }      
+
+div:hover .five{
+    transform: scalex(2);
+    } 
+    
+div:hover .six{
+    transform: scaley(2);
+    } 
+
+div:hover .seven{
+    transform: skewX(45deg);
+    /* transform: skew(45deg); */
+    }     
+
+div:hover .eight{
+    transform: skewy(45deg);
+    }   
+
+div:hover .nine{
+    transform: translate(3rem ,1rem);
+    }   
+
+div:hover .ten{
+    transform:  translatex(3rem);
+    }
+    
+div:hover .eleven{
+    transform:  translatey(3.5rem);
+    }
+
+div:hover .twelve{
+    transform: translateX(3.5rem) skewy(45deg) scale(2);
+    }  
+
+div:hover .thirteen{
+    transform: perspective(12rem) rotateX(60deg) scaley(1.35) scaleX(1.1);
+    }  
+
+div:hover .fourteen{
+    transform: perspective(12rem) rotatey(50deg) scaleX(1.19);
+    }  
+
+.fifteen{
+    transform-origin: top right;
+}
+
+div:hover .fifteen{
+transform: rotate(48deg);
+}
+
+.sixteen{
+    transform-origin: bottom left;
+}
+
+div:hover .sixteen{
+transform: rotate(48deg);
+}
+
+div:hover .seventeen{
+    transform: perspective(12rem) rotateX(50deg) scaleX(.76) scaleY(.8) translateY(1.45rem) ;
+    }  
+
+.eighteen{
+    transform-origin: top;
+}
+
+div:hover .eighteen{
+    transform: perspective(12rem) rotateX(50deg) scaleY(.8);
+    }  
+
+.nineteen{
+    transform-origin: left;
+}
+
+div:hover .nineteen{
+    transform: perspective(12rem) rotatey(30deg);
+}  
+
+.twenty{
+    transform-origin: right;
+}
+    
+div:hover .twenty{
+    transform: perspective(12rem) rotatey(40deg) scaleX(.7);
+}  
+
+.t-one{
+    transform-origin: top right;
+}
+
+div:hover .t-one{
+    transform: scale(2);
+}
+
+.t-two{
+    transform-origin: bottom left;
+}
+
+div:hover .t-two{
+    transform: scale(2);
+    opacity: .8;
+}
+
+.t-three{
+    transform-origin: right;
+}
+
+div:hover .t-three{
+    transform: scaleX(2);
+}
+
+.t-four{
+    transform-origin: left;
+}
+
+div:hover .t-four{
+    transform: scaleX(1.9);
+}
+
+.t-five{
+    transform-origin: top;
+}
+
+div:hover .t-five{
+    transform: scaleY(2);
+}
+
+.t-six{
+    transform-origin: bottom;
+}
+
+div:hover .t-six{
+    transform: scaleY(2);
+}
